@@ -1,11 +1,11 @@
 'use strict';
 
-const {esNextPaths} = require('./scripts/shared/pathsByLanguageVersion');
+const { esNextPaths } = require('./scripts/shared/pathsByLanguageVersion');
 
 module.exports = {
   bracketSpacing: false,
   singleQuote: true,
-  jsxBracketSameLine: true,
+  jsxBracketSameLine: false,
   trailingComma: 'es5',
   printWidth: 80,
   parser: 'babel',
